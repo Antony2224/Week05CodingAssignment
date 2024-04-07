@@ -12,7 +12,7 @@ public class App {
 		//Implements the error method from the class AsteriskLogger
 		logger.error("Hello");
 		
-		//New logger that call in the SpacedLogger class
+		//New logger that calls in the SpacedLogger class
 		Logger logger1 = new SpacedLogger();
 		//code for more readable console
 		System.out.println("----------");
