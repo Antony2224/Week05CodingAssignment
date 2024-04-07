@@ -1,6 +1,6 @@
 
 public class SpacedLogger implements Logger {
-
+	//Overwritten method from Logger interface
 	@Override
 	public void log(String log) {
 		// TODO Auto-generated method stub
@@ -9,7 +9,7 @@ public class SpacedLogger implements Logger {
 			System.out.print(log.charAt(index) + " ");
 		}
 	}
-
+	//Overwritten method from Logger interface
 	@Override
 	public void error(String error) {
 		// TODO Auto-generated method stub
